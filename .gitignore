@@ -1,0 +1,52 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# Test results and coverage
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+appsettings.*.local.json
+*.pfx
