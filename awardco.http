@@ -1,0 +1,16 @@
+@awardco_HostAddress = http://localhost:5287
+
+GET {{awardco_HostAddress}}/api/pointsledger
+Accept: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "balance": 100
+}
+
+### Get an employee's balance
+GET {{awardco_HostAddress}}/api/pointsledger/1/balance
+Accept: application/json
+
+###
